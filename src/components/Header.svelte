@@ -1,21 +1,27 @@
-<header class="md:container mx-auto navbar bg-base-100 mb-6 px-6">
-	<div class="flex-1">
-		<a href="/" class="font-bold text-xl">Zemní práce Fusko</a>
-	</div>
-	<nav class="flex-none">
-		<ul class="menu menu-horizontal">
-			<li><a href="/posts">Příspěvky</a></li>
-			<li><a href="/cenik">Ceník</a></li>
-			<li><a href="/kontakt">Kontakt</a></li>
-			<!-- <li>
-				<details>
-					<summary> Parent </summary>
-					<ul class="bg-base-100">
-						<li><a href="#todo">Link 1</a></li>
-						<li><a href="#todo">Link 2</a></li>
-					</ul>
-				</details>
-			</li> -->
-		</ul>
-	</nav>
+
+
+<header class="header">
+    <div class="header-layout">
+        <h3 class="header-heading">
+           <!--  <img src="img/worker-fusko.png" alt=""> -->
+            Zemní práce Augustin Fusko
+        </h3>
+        <div class="hamburger">
+            <span class="stick1 stick"></span>
+            <span class="stick2 stick"></span>
+            <span class="stick3 stick"></span>
+        </div>
+    </div>
+    <nav class="nav">
+        <ul class="nav-list">
+            <li><a class="nav-item" href="#">Hlavní stránka</a></li>
+            <li><a class="nav-item" href="#">Ceník</a></li>
+            <li><a class="nav-item" href="#">Kontakt</a></li>
+        </ul>
+    </nav>
 </header>
+
+<style lang="stylus">
+    .header
+        background-color red
+</style>
